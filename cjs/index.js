@@ -1,4 +1,4 @@
-const foo = require('./foo')
+const {text, endText} = require('./foo')
 const leftPad = require('left-pad')
 
-console.log(leftPad(foo, 10, '.'))
+console.log(text + leftPad(endText, 10, '.'))
